@@ -6,6 +6,6 @@ public class Student extends Person {
     }
 
     public void explain(){
-        System.out.println("ООП бул объектке багытталганпрограммалоо");
-    };
+        System.out.println("ООП бул объектке багытталган программалоо");
+    }
 }
