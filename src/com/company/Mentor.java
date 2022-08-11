@@ -20,10 +20,9 @@ public class Mentor extends Person {
     public void takeAnExam() {
         System.out.println(getName() + " is taking an exam:");
         for (Student s : students) {
-            if (s != null) {
-                System.out.printf("\nStudent %s(%s) is answering:\n",s.getName(),s.getAge());
-                s.explain();
-            }
+            if (s == null) break;
+            System.out.printf("\nStudent %s(%s) is answering:\n", s.getName(), s.getAge());
+            s.explain();
         }
     }
 
